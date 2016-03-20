@@ -11,20 +11,18 @@ url: http://mothership-one.github.io/
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: Harmony
+  name: mothership.one
   # Little description about your site
-  description: Harmony is free responsive jekyll theme.
+  description: Microservices Blog
   # 'meta_description:' Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and 
   # in your feed.xml site description.
   meta_description: > # 
-   Harmony is a free responsive jekyll theme by Gayan Virajith
-   and Maheshika Lakmali. Sourced on Github - 
-   https://github.com/gayanvirajith/harmony
+   All about microservices
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
+    name: axhm3a, pg2000
+    email:
     url: http://gayanvirajith.github.io
 
   # Google Analytics key, leave blank to ignore
@@ -44,7 +42,7 @@ harmony:
 # Conversion / Build settings 
 markdown:    kramdown
 # This is how you put pygments config in jekyll 2.0 instead of pygments: true
-highlighter: rouge
+highlighter: pygments
 
 # Permalinks
 permalink:        pretty
