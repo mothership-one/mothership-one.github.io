@@ -35,12 +35,24 @@ permalink: zehn-dinge-ueber-docker
 
 4) Docker mit Corporate Proxy
 -----------------------------
+* pear
+* container build
+* container run
+* docker machine
+* etc
 
 5) Der vergessliche Registrator
 -------------------------------
+*registrator Ausfall
+*container stop event wird nicht verarbeitet und registrator prüft nicht proaktiv
+*ttl für services sorgen dafür karteileichen aufzuräumen
+*lange ttl für self healing system über nacht
+*healthchecks für kurzfristiges umrouten
 
 6) Lokal mit Virtualbox und docker machine
 ------------------------------------------
+* instant docker swarm mit consul
+
 
 Fazit:
 ------
