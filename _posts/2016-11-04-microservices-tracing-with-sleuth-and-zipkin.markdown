@@ -128,7 +128,7 @@ public Sampler defaultSampler() {
 
 Weitere Sampling Strategien findet ihr [hier][4].
 
-Fazit:
+### Fazit:
 
 Mit Spring Cloud Sleuth erhaltet ihr im Spring Boot Umfeld eine schnelle Lösung um
 in verteilten Systemen aussagefähige Traces zu erstellen. Ein Nachteil ist es jedoch wenn die Service
@@ -136,7 +136,7 @@ Landschaft polyglott entwickelt wurde und dadurch Lücken im Trace entstehen.
 
 Dazu entwickelt sich gerade eine Vendor unabhängie Alternative unter [opentracing.io](http://opentracing.io/)
 
-Übrigens gibt es einen schönen Nebeneffekt gibt wenn ihr ein zentralisiertes Logging betreibt:
+Übrigens gibt es einen schönen Nebeneffekt wenn ihr ein zentralisiertes Logging betreibt:
 Beim Logging wird die Trace Id ebenfalls verwendet. Daher ist es auch möglich z.B.
 im Graylog oder Kibana danach zu suchen und systemübergreifend Logs zu verfolgen.
 Dies funktioniert sogar wenn Zipkin deaktiviert ist.
