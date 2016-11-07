@@ -103,7 +103,7 @@ Schematisch betrachtet funktioniert dies in etwa so:
 
 ![Image](/assets/img/sleuth-and-zipkin-spring-boot/sleuth-simple.svg)
 
-Die Aggregation der Daten erfolgt in Zipkin und sieht dannfolgendermaßen aus:
+Die Aggregation der Daten erfolgt in Zipkin und sieht dann folgendermaßen aus:
 
 ![Image](/assets/img/sleuth-and-zipkin-spring-boot/zipkin-trace-view.png)
 
