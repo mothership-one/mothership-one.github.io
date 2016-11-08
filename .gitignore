@@ -1,4 +1,4 @@
 _site/
 .sass-cache/
-_posts/*
-media/*
+Gemfile.lock
+.idea
