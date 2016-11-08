@@ -20,13 +20,13 @@ authors:
   axhm3a:
     name: Daniel Basten
     display_name: Daniel Basten
-    gravatar: xxxxxx
+    image: /assets/img/about/daniel_basten.jpg
     github: https://github.com/axhm3a
     about: Software Architekt, Agiler Projektleiter, Software Engineer
   pg2000:
     name: Patrick Geschinski
     display_name: Patrick Geschinski
-    gravatar: xxxxxx
+    image: /assets/img/about/patrick_geschinski.jpg
     github: https://github.com/PG2000
     about: Software Architekt, Agiler Projektleiter, Software Engineer
 

@@ -2,7 +2,7 @@
 layout: default
 article: true
 ---
-
+{% assign author = site.authors[page.author] %}
 <header class="{% if page.dark %}dark{% else %}clean{% endif %}" style="background-image: url({% if page.image.url %}{{ page.image.url }}{% else %}{{ site.cover }}{% endif %}); height: 100%; {% if site.parallax != true %}background-attachment: scroll;{% endif %}" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
 	{% if page.video %}
 		<video id="bg-video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" data-stellar-ratio="0.5">
@@ -17,7 +17,7 @@ article: true
 		{% if page.quote %}
 			<h2>{{ page.quote }}</h2>
 		{% endif %}
-		<a class="site-title" href="{{ site.url }}{{ site.baseurl }}"><div class="site-icon-small" style="background-image: url({{ site.icon }});"></div>{{ site.title }}</a>, in {{ page.date | date_to_long_string }}
+		<a class="site-title" href="{{ site.url }}{{ site.baseurl }}"><div class="site-icon-small" style="background-image: url({{ site.icon }});"></div>{{ author.display_name }}</a>, {{ page.date | date_to_long_string }}
 	</div>
 	{% if page.image.source %}
 	<div id="img-info" data-stellar-ratio="0.5">
@@ -31,6 +31,15 @@ article: true
 <div id="middle">
 	<div id="article">
 		{{ content }}
+	</div>
+	<div id="author">
+		<div style="display: inline-block;">
+				<img class="rounded" src="{{ author.image }}" width="50px" height="50px" />
+		</div>
+		<div style="display: inline-block;">
+			<h4 style="margin-bottom:0px;">{{ author.display_name }}</h4>
+		 <span style="font-size:0.8em;">{{ author.about }}</span>
+		</div>
 	</div>
 	{% if site.commentsystem %}{% if page.comments != false %}
 	<div id="comments">

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Android debugging over wifi"
+author: axhm3a
 date:   2016-10-25 10:14:00
 description: Android debugging over wifi
 categories:
@@ -21,7 +22,7 @@ luckily a colleague of mine borrowed my his cable for a minute. so how to setup 
 
 * find the IP address of your phone in the details of your wifi connection
 
-* connect your debugger to your device over network: 
+* connect your debugger to your device over network:
   `adb connect <PHONE_IP_ADDRESS>:5555`
 
 * Disconnect your USB cable and let electromanic waves do their thing while debugging :)
