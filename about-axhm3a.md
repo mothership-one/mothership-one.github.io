@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About the site, the author, the life, the universe and everything more.
-permalink: about/
+title: About Daniel Basten
+permalink: authors/daniel-basten/
 ---
 
 <div class="message">

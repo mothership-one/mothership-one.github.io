@@ -1,11 +1,6 @@
 source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
+gem 'github-pages', '>=28'
+gem 'html-proofer', '>=1.4.0'
+gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-
-gem 'github-pages', versions['github-pages']
-gem 'rake'
-
-gem 'pygments.rb'
