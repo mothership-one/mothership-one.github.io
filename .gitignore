@@ -1,9 +1,4 @@
-### Jekyll template
 _site/
 .sass-cache/
-.idea
-.jekyll-metadata
-.DS_Store
-*.sublime-*
-.bundle
-
+_posts/*
+media/*
