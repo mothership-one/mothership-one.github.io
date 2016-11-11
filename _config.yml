@@ -13,7 +13,7 @@ commentsystem:    disqus
 disqus:           mothership-one
 
 author:
-  name:           Daniel BAsten, Patrick Geschinski
+  name:           Daniel Basten, Patrick Geschinski
   url:            ''
 
 authors:
@@ -33,7 +33,7 @@ authors:
 paginate:         5
 
 # Custom vars
-icon:             /assets/images/icon.png
+icon:             /assets/images/ufo.png
 cover:            /assets/images/cover.jpg
 
 social:
